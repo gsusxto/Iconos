@@ -1,0 +1,47 @@
+.container-ul li{
+font-family: "Big Shoulders Inline Text", cursive;
+font-size: 2em;
+margin-left: 25px;
+}
+.container-ul li::marker{
+font-family: "Font Awesome 5 Free";
+content: "\f2b9";
+font-weight: 900;
+font-size: 2em;
+color: red;
+}
+.container-ul li:nth-child(2)::marker{
+content: "\f5fd";
+color: rgb(187, 255, 0);
+}
+.container-ul li:nth-child(3)::marker{
+content: "\f228";
+color: rgb(38, 0, 255);
+}
+.container-ul li:nth-child(4)::marker{
+content: "\f19c";
+color: rgb(38, 0, 255);
+}
+.container-ul li:nth-child(5)::marker{
+content: "\f164";
+color: rgb(50, 162, 206);
+}
+/* Menu Hobbies*/
+.container-ul__li-ol li{
+font-size: 15px;
+font-family: 'Big Shoulders Inline Text', cursive;
+}
+.container-ul__li-ol li::marker{
+font-family: "Font Awesome 5 Free";
+content: "\f58f";
+font-size: 1.5em;
+color: salmon;
+}
+.container-ul__li-ol li:nth-child(2)::marker{
+content: '\f434';
+color: cadetblue;
+}
+.container-ul__li-ol li:nth-child(3)::marker{
+content: '\f501';
+color: cyan;
+}
